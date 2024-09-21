@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoftInvader</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
@@ -43,67 +44,99 @@
                     <div class="single-service">
                         <h3 class="single-service__title">
                             <img src="./assets/images/icons/icon-1.svg" alt="" class="single-service__icon">
-                            Услуга 1
+                            Разработка программного обеспечения
                         </h3>
                         <p class="single-service__text">
-                            Анализ бизнес-процессов, аудит IT инфраструктуры и разработка стратегии по внедрению
-                            программного обеспечения
+                            Предоставляем полный комплекс работ по разработке заказного программного обеспечения
                         </p>
                     </div>
                     <div class="single-service">
+
                         <h3 class="single-service__title">
                             <img src="./assets/images/icons/icon-2.svg" alt="" class="single-service__icon">
-                            Услуга 1
+                            Разработка мобильных приложений
                         </h3>
                         <p class="single-service__text">
-                            Анализ бизнес-процессов, аудит IT инфраструктуры и разработка стратегии по внедрению
-                            программного обеспечения
+                            Разрабатываем мобильные приложения под iOS, Android
                         </p>
                     </div>
                     <div class="single-service">
                         <h3 class="single-service__title">
                             <img src="./assets/images/icons/icon-3.svg" alt="" class="single-service__icon">
-                            Услуга 1
+                            Техническая поддержка
                         </h3>
                         <p class="single-service__text">
-                            Анализ бизнес-процессов, аудит IT инфраструктуры и разработка стратегии по внедрению
-                            программного обеспечения. Анализ бизнес-процессов, аудит IT инфраструктуры.
+                            Осуществляем высококачественную техническую поддержку ваших технологий
                         </p>
                     </div>
                     <div class="single-service">
                         <h3 class="single-service__title">
                             <img src="./assets/images/icons/icon-4.svg" alt="" class="single-service__icon">
-                            Услуга 1
+                            Тестирование
                         </h3>
                         <p class="single-service__text">
-                            Анализ бизнес-процессов, аудит IT инфраструктуры и разработка стратегии по внедрению
-                            программного обеспечения
+                            Обладаем значительным опытом тестирования проектов в различных областях
                         </p>
                     </div>
                     <div class="single-service">
                         <h3 class="single-service__title">
                             <img src="./assets/images/icons/icon-5.svg" alt="" class="single-service__icon">
-                            Услуга 1
+                            IT-Архитектура
                         </h3>
                         <p class="single-service__text">
-                            Анализ бизнес-процессов, аудит IT инфраструктуры и разработка стратегии по внедрению
-                            программного обеспечения
+                            Детально продумываем и планируем качественную архитектуру разработки ПО
                         </p>
                     </div>
                     <div class="single-service">
                         <h3 class="single-service__title">
                             <img src="./assets/images/icons/icon-6.svg" alt="" class="single-service__icon">
-                            Услуга 1
+                            Консалтинг
                         </h3>
                         <p class="single-service__text">
-                            Анализ бизнес-процессов, аудит IT инфраструктуры и разработка стратегии по внедрению
-                            программного обеспечения
+                            Делимся накопленными знаниями в сфере бизнес анализа, создания архитектуры приложений и
+                            QA-консалтинга
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="benefits">
+        <section class="clients">
+            <div class="container">
+                <h2 class="secondary-title">
+                    Наши довольные клиенты
+                </h2>
+                <div class="clients-swiper">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./assets/images/clients/client1.jpg" alt="" class="clients-image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/clients/client2.jpg" alt="" class="clients-image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/clients/client3.jpg" alt="" class="clients-image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/clients/client4.jpg" alt="" class="clients-image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/clients/client5.jpg" alt="" class="clients-image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/clients/client6.jpg" alt="" class="clients-image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/clients/client7.jpg" alt="" class="clients-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="benefits">
             <div class="container">
                 <h2 class="secondary-title">
                     Мы в цифрах
@@ -143,6 +176,24 @@
                     </div>
                 </div>
             </div>
+        </section> -->
+        <section class="contact">
+            <div class="container">
+                <h2 class="secondary-title">
+                    Остались вопросы?
+                </h2>
+                <form action="mailto:info@softinvader.com" class="contact-form">
+                    <div class="contact-form__section">
+                        <input type="text" class="contact-form__input" name="name" placeholder="Имя*" required>
+                        <input type="email" class="contact-form__input" name="email" placeholder="E-mail*" required>
+                        <input type="text" class="contact-form__input" name="phone" placeholder="Телефон*" required>
+                        <input type="text" class="contact-form__input" name="question" placeholder="Вопрос*" required>
+                    </div>
+                    <button class="contact-form__button">
+                        Отправить
+                    </button>
+                </form>
+            </div>
         </section>
     </main>
     <footer class="footer" id="footer">
@@ -154,11 +205,11 @@
                 <div class="contacts">
                     <a href="" class="contacts__item">
                         <img src="./assets/images/phone.svg" alt="" class="contacts__icon">
-                        +375 29 228 1337
+                        +375 29 753 67 62
                     </a>
                     <a href="" class="contacts__item">
                         <img src="./assets/images/mail.svg" alt="" class="contacts__icon">
-                        mail@softinvader.by
+                        info@softinvader.com
                     </a>
                 </div>
             </div>
@@ -168,11 +219,33 @@
                 </div>
                 <div class="address">
                     <img src="./assets/images/address.svg" alt="" class="address__icon">
-                    Минск, ул. Пушкина, 23
+                    Минск, ул. Ф.Скорины 40
                 </div>
             </div>
         </div>
     </footer>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
+        import Navigation from 'https://cdn.jsdelivr.net/npm/swiper@11.1.14/modules/navigation.mjs';
+        const swiper = new Swiper('.swiper', {
+            modules: [Navigation],
+            slidesPerView: 1,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 2
+                },
+                768: {
+                    slidesPerView: 3
+                }
+            }
+        })
+    </script>
+    <script src="./script/main.js"></script>
 </body>
 
 </html>
