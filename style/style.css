@@ -154,17 +154,17 @@ body {
 
 .secondary-title {
     text-align: center;
-    font-size: 32px;
-    margin-bottom: 32px;
+    font-size: 40px;
+    margin-bottom: 50px;
     margin-top: 0;
     line-height: 1;
     color: #FFF;
 }
 
 .services__text {
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
     margin-top: 0;
     color: #FFF;
 }
@@ -445,6 +445,15 @@ body {
     .secondary-title {
         font-size: 28px;
         margin-bottom: 24px;
+    }
+
+    .services__text {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+    
+    .contact, .services, .clients {
+        padding: 60px 0;
     }
 }
 
