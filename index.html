@@ -14,31 +14,29 @@
         <div class="container">
             <div class="header-container">
                 <div class="logo">
-                    <img src="./assets/images/logo1.png" alt="" class="logo__image">
+                    <img src="./assets/images/logo.png" alt="" class="logo__image">
                 </div>
-                <nav class="nav">
-                    <a href="#footer" class="nav__link">Контакты</a>
-                </nav>
+                <button class="order-button">Оставить заявку</button>
             </div>
         </div>
     </header>
     <main class="main">
-        <section class="main-banner">
+        <!-- <section class="main-banner">
             <div class="container">
                 <div class="main-banner__container">
                     <h1 class="main-title">IT-аутсорс от профессионалов</h1>
                     <a href="#services" class="main-button">Подробнее</a>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="services" id="services">
             <div class="container">
                 <h2 class="secondary-title">
-                    Чем мы можем помочь
+                    Кто мы?
                 </h2>
                 <p class="services__text">
-                    Мы предоставляем целый комплекс услуг. Мы предоставляем целый комплекс услуг. Мы предоставляем целый
-                    комплекс услуг. Мы предоставляем целый комплекс услуг.
+                    SovtInvader - это более 20 лет опыта в сфере IT. Мы - команда единомышленников и профессионалов,
+                    которая каждый день создает продукты высокого качества
                 </p>
                 <div class="services-box">
                     <div class="single-service">
@@ -177,30 +175,12 @@
                 </div>
             </div>
         </section> -->
-        <section class="contact">
-            <div class="container">
-                <h2 class="secondary-title">
-                    Остались вопросы?
-                </h2>
-                <form action="mailto:info@softinvader.com" class="contact-form">
-                    <div class="contact-form__section">
-                        <input type="text" class="contact-form__input" name="name" placeholder="Имя*" required>
-                        <input type="email" class="contact-form__input" name="email" placeholder="E-mail*" required>
-                        <input type="text" class="contact-form__input" name="phone" placeholder="Телефон*" required>
-                        <input type="text" class="contact-form__input" name="question" placeholder="Вопрос*" required>
-                    </div>
-                    <button class="contact-form__button">
-                        Отправить
-                    </button>
-                </form>
-            </div>
-        </section>
     </main>
     <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__container">
                 <div class="logo">
-                    <img src="./assets/images/logo1.png" alt="" class="logo__image">
+                    <img src="./assets/images/logo.png" alt="" class="logo__image">
                 </div>
                 <div class="contacts">
                     <a href="" class="contacts__item">
@@ -224,6 +204,27 @@
             </div>
         </div>
     </footer>
+    <div class="contact d-none">
+        <button class="close-button">
+            <img src="./assets/images/cross.svg" alt="" class="close-button__image">
+        </button>
+        <div class="container">
+            <h2 class="secondary-title">
+                Остались вопросы?
+            </h2>
+            <form action="mailto:info@softinvader.com" class="contact-form">
+                <div class="contact-form__section">
+                    <input type="text" class="contact-form__input" name="name" placeholder="Имя*" required>
+                    <input type="email" class="contact-form__input" name="email" placeholder="E-mail*" required>
+                    <input type="text" class="contact-form__input" name="phone" placeholder="Телефон*" required>
+                    <input type="text" class="contact-form__input" name="question" placeholder="Вопрос*" required>
+                </div>
+                <button class="contact-form__button">
+                    Отправить
+                </button>
+            </form>
+        </div>
+    </div>
     <script type="module">
         import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
         import Navigation from 'https://cdn.jsdelivr.net/npm/swiper@11.1.14/modules/navigation.mjs';
