@@ -1,5 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+
+@font-face {
+    font-family: 'helveticaneue';
+    font-weight: 700;
+    font-display: swap;
+    src: url('../assets/fonts/helveticaneuecyr-bold-webfont.eot');
+    src: url('../assets/fonts/helveticaneuecyr-bold-webfont.eot#iefix') format('embedded-opentype'),
+         url('../assets/fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/helveticaneuecyr-bold-webfont.woff') format('woff'),
+         url('../assets/fonts/helveticaneuecyr-bold-webfont.ttf') format('truetype');
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'helveticaneue';
+    font-weight: 400;
+    font-display: swap;
+    src: url('../assets/fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../assets/fonts/helveticaneuecyr-light-webfont.eot#iefix') format('embedded-opentype'),
+         url('../assets/fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('../assets/fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+         url('../assets/fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'helveticaneue';
+    font-weight: 500;
+    font-display: swap;
+    src: url('../assets/fonts/helveticaneuecyr-roman-webfont.eot');
+    src: url('../assets/fonts/helveticaneuecyr-roman-webfont.eot#iefix') format('embedded-opentype'),
+         url('../assets/fonts/helveticaneuecyr-roman-webfont.woff2') format('woff2'),
+         url('../assets/fonts/helveticaneuecyr-roman-webfont.woff') format('woff'),
+         url('../assets/fonts/helveticaneuecyr-roman-webfont.ttf') format('truetype');
+    font-style: normal;
+}
+
+
 .container,
 .container-fluid,
 .container-lg,
@@ -31,7 +69,7 @@ body {
 }
 
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'helveticaneue', sans-serif;
     color:#FFF
 }
 
