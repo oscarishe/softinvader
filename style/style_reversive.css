@@ -23,6 +23,7 @@ body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    background: #000;
 }
 
 * {
@@ -31,6 +32,7 @@ body {
 
 body {
     font-family: 'IBM Plex Sans', sans-serif;
+    color:#FFF
 }
 
 
@@ -71,7 +73,7 @@ body {
 }
 
 .header {
-    background: #FFF;
+    background: #000;
 }
 
 .header-container {
@@ -94,8 +96,8 @@ body {
     line-height: 1;
     font-size: 20px;
     font-weight: 700;
-    color: #FFF;
-    background: #000;
+    color: #000;
+    background: #FFF;
     text-decoration: none;
     border: none;
     border-radius: 50px;
@@ -159,7 +161,7 @@ body {
     margin-bottom: 50px;
     margin-top: 0;
     line-height: 1;
-    color: #000;
+    color: #FFF;
     /* color: #FFF; */
 }
 
@@ -178,7 +180,7 @@ body {
 }
 
 .single-service {
-    color: #000;
+    color: #FFF;
     /* background: #88caff; */
     padding: 20px 15px 30px;
 }
@@ -200,11 +202,12 @@ body {
 .single-service__icon {
     width: 24px;
     height: 24px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(83%) saturate(2%) hue-rotate(318deg) brightness(107%) contrast(101%);
     /* display: none; */
 }
 
 .benefits .secondary-title {
-    color: #000;
+    color: #FFF;
 }
 
 .benefits {
@@ -241,6 +244,9 @@ body {
 }
 
 .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -343,7 +349,7 @@ body {
 }
 
 .clients .secondary-title {
-    color: #000;
+    color: #FFF;
 }
 
 .clients-swiper {
@@ -366,7 +372,7 @@ body {
     align-items: center;
     position: relative;
     margin-top: 0;
-    color: #000;
+    color: #FFF;
 }
 
 .footer {
@@ -387,7 +393,7 @@ body {
 }
 
 .contacts__item {
-    color: #000;
+    color: #FFF;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -396,7 +402,7 @@ body {
 
 .contacts__icon {
     width: 16px;
-    /* filter: brightness(0) saturate(100%) invert(100%) sepia(83%) saturate(2%) hue-rotate(318deg) brightness(107%) contrast(101%); */
+    filter: brightness(0) saturate(100%) invert(100%) sepia(83%) saturate(2%) hue-rotate(318deg) brightness(107%) contrast(101%);
 }
 
 
@@ -407,7 +413,7 @@ body {
 
 .address__icon {
     width: 16px;
-    /* filter: brightness(0) saturate(100%) invert(100%) sepia(83%) saturate(2%) hue-rotate(318deg) brightness(107%) contrast(101%); */
+    filter: brightness(0) saturate(100%) invert(100%) sepia(83%) saturate(2%) hue-rotate(318deg) brightness(107%) contrast(101%);
 }
 
 .d-none {
