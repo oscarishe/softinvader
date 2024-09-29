@@ -128,9 +128,11 @@ body {
 }
 
 .order-button {
-    padding: 12.5px 25px;
+    display: block;
+    margin: auto;
+    padding: 20px 40px;
     line-height: 1;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     color: #FFF;
     background: #000;
@@ -279,6 +281,7 @@ body {
 }
 
 .contact {
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
@@ -384,11 +387,18 @@ body {
     color: #000;
 }
 
-.clients-swiper {
-    display: flex;
+.clients-container {
+    display: grid;
+    max-width: 720px;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap:35px 20px;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 20px; */
 }
 
 .swiper-slide {
@@ -447,6 +457,26 @@ body {
     width: 16px;
     /* filter: brightness(0) saturate(100%) invert(100%) sepia(83%) saturate(2%) hue-rotate(318deg) brightness(107%) contrast(101%); */
 }
+
+.stack {
+    padding: 50px 0;
+}
+
+.stack-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 300px;
+    margin: 0 auto;
+    gap:20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.stack-box__item {
+    max-width: 100%;
+    max-height: 150px;
+}
+
 
 .d-none {
     display: none;
@@ -541,9 +571,26 @@ body {
         font-size: 18px;
         margin-bottom: 24px;
     }
+
+    .clients-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .order-button {
+        font-size: 24px;
+        padding: 15px 27.5px;
+    }
 }
 
-@media (max-width:576px) {}
+@media (max-width:576px) {
+    .clients-container, .stack-box {
+        grid-template-columns: 1fr
+    }
+    .stack-box {
+        max-width: 200px;
+    }
+
+}
 
 @keyframes main-animation {
     0% {
